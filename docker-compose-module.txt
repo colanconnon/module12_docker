@@ -35,3 +35,12 @@ Starting dockercompose_hello-container_1
 Attaching to dockercompose_hello-container_1
 hello-container_1  | Hello, Docker Compose!
 dockercompose_hello-container_1 exited with code 0
+
+
+Colans-MacBook-Pro:dockercompose colanconnan$ docker-compose up
+Starting dockercompose_data-container_1
+Starting dockercompose_hello-container_1
+Attaching to dockercompose_data-container_1, dockercompose_hello-container_1
+hello-container_1  | Hello, Docker Compose!
+dockercompose_data-container_1 exited with code 0
+dockercompose_hello-container_1 exited with code 0
